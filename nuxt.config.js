@@ -35,6 +35,11 @@ module.exports = {
       }
     }
   },
-  mode: 'spa'
+  mode: 'spa',
+  plugins: ['~/plugins/auth0.js'],
+  auth0: {
+    domain: 'auth0-sample-cebasypia.us.auth0.com',
+    clientID: 'dcGO4HAKm11TDT25SEp6EhrH9DtXzK1g',
+  }
 }
 
